@@ -1,7 +1,7 @@
 use crate::drive::Drive;
 use safe_vex::prelude::*;
 
-struct MyRobot {
+pub struct MyRobot {
     drive: Drive,
 }
 
