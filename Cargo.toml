@@ -5,5 +5,15 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[profile.release] # release (competition) binary must be optimised for size (all testing and debugging should be done with dev binary)
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+
+[profile.dev] # compile safe-vex with full optimisiations but not the dev code
+opt-level = 3
+
 [dependencies]
-safe-vex = "1.1.2"
+safe-vex = "2" # change this to your current version of safe-vex
