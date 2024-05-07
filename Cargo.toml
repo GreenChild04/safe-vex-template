@@ -16,4 +16,4 @@ strip = true
 opt-level = 3
 
 [dependencies]
-safe-vex = "2" # change this to your current version of safe-vex
+safe-vex = "3" # change this to your current version of safe-vex

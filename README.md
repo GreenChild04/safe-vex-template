@@ -1,5 +1,12 @@
-# safe-vex-template
-A template for working with `safe-vex`
+[![crates.io](https://img.shields.io/crates/v/cargo-rdme.svg)](https://crates.io/crates/safe-vex)
+[![Downloads crates.io](https://img.shields.io/crates/d/safe-vex.svg?label=crates.io%20downloads)](https://crates.io/crates/safe-vex)
+[![License](https://img.shields.io/crates/l/safe-vex.svg)](./LICENSE.md)
+
+# safe-vex
+A safe, reliable and comprehensive wrapper around the vex-rt library that will never panic!
+
+## Disclamer
+`safe-vex` is an open-source community project. `safe-vex` is neither endorsed by or affiliated with Innovation First, Inc. VEX and VEX Robotics are trademarks or service marks of Innovation First, Inc. `safe-vex` is also not developed by the same developers at [vex-rt](https://crates.io/crates/vex-rt) rather it is an independant project.
 
 ## Quickstart *(Natively)*
 you will need:
